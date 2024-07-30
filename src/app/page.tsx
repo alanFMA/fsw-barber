@@ -1,8 +1,7 @@
-"use client"
-import Image from "next/image"
+import { Button } from "./_components/ui/button"
 
 const Home = () => {
-  return <h1 className="mb-5 bg-red-700 text-red-500">Labacha</h1>
+  return <Button>Hello</Button>
 }
 
 export default Home
